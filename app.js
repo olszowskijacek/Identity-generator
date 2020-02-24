@@ -17,3 +17,11 @@ const lastNames = ['Kiraga', 'Pluta', 'Sosna', 'Jaworek', 'Kwiat', 'Okoń'];
 console.log(femaleNames);
 
 console.log(lastNames);
+
+// const people = []; 
+
+const randChoice = arr => {
+    return arr[Math.floor(Math.random() * arr.length)];
+};
+
+console.log(randChoice(femaleNames));
