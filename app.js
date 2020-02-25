@@ -30,7 +30,29 @@ console.log(randChoice(femaleNames));
 
 
 const randChoiceNumber = ({ min, max }) => {
-    return Math.floor(Math.random() * (max - min +1 )) + min;
+    return Math.floor(Math.random() * (max - min + 1 )) + min;
 };
 
 console.log(randChoiceNumber(ages));
+
+for( let i = 0; i < 20; i++ ) {
+
+    const gender = randChoice(genders);
+    
+    let firstName;
+
+    if (gender === 'M') {
+        firstName = randChoice(maleNames);
+
+    } else {
+        firstName = randChoice(femaleNames);
+    }
+
+    const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+
+    const age = randChoiceNumber(ages);
+
+    const personalData = { gender, firstName, lastName, age};
+    
+    console.log('personalData ', personalData);
+}
