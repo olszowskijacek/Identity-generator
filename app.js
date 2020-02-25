@@ -61,4 +61,10 @@ for( let i = 0; i < 20; i++ ) {
 
 const jsonPeople = JSON.stringify(people);
 
-console.log(jsonPeople);
+// console.log(jsonPeople);
+
+fs.writeFile('people.json', jsonPeople, err => {
+    if (err) throw err;
+
+    console.log('The file has been saved!');
+});
