@@ -22,6 +22,8 @@ const people = [];
 
 const ages = { min: 18, max: 78 };
 
+const phoneNumbers = { min: 100000000, max: 999999999 };
+
 const randChoice = arr => {
     return arr[Math.floor(Math.random() * arr.length)];
 };
@@ -52,7 +54,9 @@ for( let i = 0; i < 20; i++ ) {
 
     const age = randChoiceNumber(ages);
 
-    const personalData = { gender, firstName, lastName, age};
+    const phoneNumber = randChoiceNumber(phoneNumbers);
+
+    const personalData = { gender, firstName, lastName, age, phoneNumber};
     
     console.log('personalData ', personalData);
 
@@ -61,10 +65,10 @@ for( let i = 0; i < 20; i++ ) {
 
 const jsonPeople = JSON.stringify(people);
 
-// console.log(jsonPeople);
+console.log(jsonPeople);
 
-fs.writeFile('people.json', jsonPeople, err => {
-    if (err) throw err;
+// fs.writeFile('people.json', jsonPeople, err => {
+//     if (err) throw err;
 
-    console.log('The file has been saved!');
-});
+//     console.log('The file has been saved!');
+// });
