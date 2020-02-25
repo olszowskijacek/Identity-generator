@@ -18,7 +18,7 @@ console.log(femaleNames);
 
 console.log(lastNames);
 
-// const people = []; 
+const people = []; 
 
 const ages = { min: 18, max: 78 };
 
@@ -55,4 +55,10 @@ for( let i = 0; i < 20; i++ ) {
     const personalData = { gender, firstName, lastName, age};
     
     console.log('personalData ', personalData);
+
+    people.push(personalData);
 }
+
+const jsonPeople = JSON.stringify(people);
+
+console.log(jsonPeople);
