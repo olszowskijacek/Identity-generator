@@ -56,19 +56,21 @@ for( let i = 0; i < 20; i++ ) {
 
     const phoneNumber = randChoiceNumber(phoneNumbers);
 
-    const personalData = { gender, firstName, lastName, age, phoneNumber};
+    const email = firstName.toLowerCase() + '.' + lastName.toLowerCase() + '@gmail.com';
+
+    const personalData = { gender, firstName, lastName, age, phoneNumber,};
     
-    console.log('personalData ', personalData);
+    // console.log('personalData ', personalData);
 
     people.push(personalData);
 }
 
 const jsonPeople = JSON.stringify(people);
 
-console.log(jsonPeople);
+// console.log(jsonPeople);
 
-// fs.writeFile('people.json', jsonPeople, err => {
-//     if (err) throw err;
+fs.writeFile('people.json', jsonPeople, err => {
+    if (err) throw err;
 
-//     console.log('The file has been saved!');
-// });
+    console.log('The file has been saved!');
+});

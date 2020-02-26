@@ -1,0 +1,161 @@
+[
+    {
+        "gender":"M",
+        "firstName":"Wiktor",
+        "lastName":"Okoń",
+        "age":68,
+        "phoneNumber":494727222
+    },
+    
+    {
+        "gender":"M",
+        "firstName":"Tomek",
+        "lastName":"Pluta",
+        "age":57,
+        "phoneNumber":898709966
+    },
+        
+    {
+        "gender":"M",
+        "firstName":"Bartek",
+        "lastName":"Kwiat",
+        "age":55,
+        "phoneNumber":207109424
+    },
+
+    {
+        "gender":"F",
+        "firstName":"Anna",
+        "lastName":"Okoń",
+        "age":18,
+        "phoneNumber":678741043
+    },
+
+    {
+        "gender":"M",
+        "firstName":"Wiktor",
+        "lastName":"Kiraga",
+        "age":62,
+        "phoneNumber":404910725
+    },
+    
+    {
+        "gender":"F",
+        "firstName":"Anna",
+        "lastName":"Kwiat",
+        "age":69,
+        "phoneNumber":549579220
+    },
+    
+    {
+        "gender":"M",
+        "firstName":"Piotr",
+        "lastName":"Okoń",
+        "age":33,
+        "phoneNumber":906125612
+    },
+    
+    {
+        "gender":"F",
+        "firstName":"Lena",
+        "lastName":"Sosna",
+        "age":31,
+        "phoneNumber":166438456
+    },
+    
+    {
+        "gender":"F",
+        "firstName":"Dorota",
+        "lastName":"Sosna",
+        "age":73,
+        "phoneNumber":918659475
+    },
+    
+    {
+        "gender":"M",
+        "firstName":"Karol",
+        "lastName":"Okoń",
+        "age":48,
+        "phoneNumber":556177561
+        
+    },
+
+    {
+        "gender":"M",
+        "firstName":"Błażej",
+        "lastName":"Jaworek",
+        "age":53,
+        "phoneNumber":135039949
+    },
+    
+    {
+        "gender":"F",
+        "firstName":"Dagmara",
+        "lastName":"Sosna",
+        "age":51,
+        "phoneNumber":604788888
+    },
+    {
+        "gender":"F",
+        "firstName":"Ola",
+        "lastName":"Okoń",
+        "age":55,
+        "phoneNumber":219351676
+    },
+    
+    {
+        "gender":"M",
+        "firstName":"Bartek",
+        "lastName":"Jaworek",
+        "age":19,
+        "phoneNumber":967011126
+    },
+
+    {
+        "gender":"M",
+        "firstName":"Jacek",
+        "lastName":"Kiraga",
+        "age":71,
+        "phoneNumber":236815079
+    },
+    
+    {
+        "gender":"F",
+        "firstName":"Ola",
+        "lastName":"Okoń",
+        "age":57,
+        "phoneNumber":865237512
+    },
+
+    {
+        "gender":"F",
+        "firstName":"Agnieszka",
+        "lastName":"Pluta",
+        "age":19,
+        "phoneNumber":389308860
+    },
+
+    {
+        "gender":"F",
+        "firstName":"Anna",
+        "lastName":"Sosna",
+        "age":69,
+        "phoneNumber":855432188
+    },
+
+    {
+        "gender":"F",
+        "firstName":"Dorota",
+        "lastName":"Okoń",
+        "age":41,
+        "phoneNumber":107661632
+    },
+
+    {
+        "gender":"M",
+        "firstName":"Piotr",
+        "lastName":"Jaworek",
+        "age":66,
+        "phoneNumber":334426473
+    }
+]
